@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/* Remove bullets style from both navigation and section */
+
+ul {
+    list-style: none;
+}
+
+
+/* Navigation */
+
+
+/* Navigation  for desktop*/
+
+.nav {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* End of navigation  for desktop*/
+
+
+/* Navigation  for tablet sna mobile*/
+
+.mobile-item {
+    float: none;
+    width: 100%;
+}
+
+.mobile-item a {
+    padding: 1px;
+}
+
+#menu-icon {
+    background: #333333;
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 5px;
+}
+
+
+/* End of navigation  for tablet and mpbile*/
+
+.activeLinke {
+    background-color: rgb(209, 130, 101);
+}
+
+.nav li a:hover {
+    background-color: rgb(219, 150, 125);
+}
+
+
+/* End of navigation */
+
+
+/* Sections */
+
+
+/* Sections  for desktop*/
+
+.section {
+    margin: 120px 50px;
+    padding: 50px;
+    background-color: rgb(228, 226, 223);
+    overflow: hidden;
+}
+
+.section h2 {
+    color: #ff4411;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+
+.section p {
+    font-size: 22px;
+    line-height: 38px;
+    margin-left: 50px;
+}
+
+.section small {
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
+    color: rgb(103, 117, 117);
+}
+
+.activeSection {
+    border: rgb(139, 176, 245) dashed 1px;
+    background-color: rgb(160, 248, 204);
+}
+
+
+/* End Sections  for desktop*/
+
+
+/* Sections  for tablet and mobile*/
+
+.section-mobile {
+    margin: 10px;
+    padding: 15px;
+}
+
+.section-mobile h2 {
+    font-size: 20px;
+}
+
+.section-mobile p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+
+/* end of Sections  for tablet and mobile*/
+
+
+/* end of Sections  */
+
+footer {
+    margin-top: 80px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    background: #151313;
+    padding: 20px;
+    color: #eee;
+}
